@@ -1,0 +1,47 @@
+﻿{
+  "produtos": [
+    { "id": "litrinhos-antarctica", "nome": "Antarctica", "categoria": "Litrinhos", "volume": "269 ml", "preco": 3.0, "foto": "https://imgs.search.brave.com/mSWqnSUDiEuG7AxE03hAscbfmIFqCJn50AuJGD1sgSI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9kMjF3/aWN6YnF4aWIwNC5j/bG91ZGZyb250Lm5l/dC90MExSeFBCU0o5/Q3AteGMteFk1dkli/MWk0cXc9L2ZpdC1p/bi80NTN4NDUzL2Zp/bHRlcnM6ZmlsbChG/RkZGRkYpOmJhY2tn/cm91bmRfY29sb3Io/d2hpdGUpL2h0dHBz/Oi8vb3N1cGVyLXBy/b2R1Y3QtdmF1bHQu/czMuc2EtZWFzdC0x/LmFtYXpvbmF3cy5j/b20vOTM0Zjc4ZTY2/YjljNzhkMGUyODQx/NzgwNTFkZDE4ZTU1/ZjMzZmMwZC8xMjE1/NTYtMTBlZDVhNTMu/anBn", "promocao": true },
+    { "id": "litrinhos-brahma", "nome": "Brahma", "categoria": "Litrinhos", "volume": "269 ml", "preco": 3.0, "foto": "https://upload.wikimedia.org/wikipedia/pt/2/23/Logo_Brahma.png", "promocao": false },
+    { "id": "litrinhos-skol", "nome": "Skol", "categoria": "Litrinhos", "volume": "269 ml", "preco": 3.5, "foto": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Skol_logo.png", "promocao": false },
+    { "id": "litrinhos-bohemia", "nome": "Bohemia", "categoria": "Litrinhos", "volume": "269 ml", "preco": 3.5, "foto": "https://upload.wikimedia.org/wikipedia/commons/0/07/Bohemia_Logo.png", "promocao": false },
+    { "id": "litrinhos-budweiser", "nome": "Budweiser", "categoria": "Litrinhos", "volume": "269 ml", "preco": 3.5, "foto": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Budweiser_logo.svg", "promocao": false },
+    { "id": "litrinhos-brahma-duplo-malte", "nome": "Brahma Duplo Malte", "categoria": "Litrinhos", "volume": "269 ml", "preco": 3.5, "foto": "https://upload.wikimedia.org/wikipedia/pt/2/23/Logo_Brahma.png", "promocao": false },
+    { "id": "litrinhos-original", "nome": "Original", "categoria": "Litrinhos", "volume": "269 ml", "preco": 4.0, "foto": "https://upload.wikimedia.org/wikipedia/commons/3/30/Antarctica_Cerveja_Original_Pilsen.jpg", "promocao": false },
+    
+    { "id": "473-antarctica-multipack", "nome": "Antarctica Multipack", "categoria": "473ml", "volume": "473 ml", "preco": 4.29, "foto": "https://upload.wikimedia.org/wikipedia/pt/4/4b/Logo_Antarctica.png", "promocao": true },
+    { "id": "473-subzero", "nome": "Subzero", "categoria": "473ml", "volume": "473 ml", "preco": 4.59, "foto": "https://upload.wikimedia.org/wikipedia/pt/4/4b/Logo_Antarctica.png", "promocao": false },
+    { "id": "473-brahma-multipack", "nome": "Brahma Multipack", "categoria": "473ml", "volume": "473 ml", "preco": 4.39, "foto": "https://upload.wikimedia.org/wikipedia/pt/2/23/Logo_Brahma.png", "promocao": true },
+    { "id": "473-antarctica", "nome": "Antarctica", "categoria": "473ml", "volume": "473 ml", "preco": 4.69, "foto": "https://upload.wikimedia.org/wikipedia/pt/4/4b/Logo_Antarctica.png", "promocao": false },
+    { "id": "473-brahma", "nome": "Brahma", "categoria": "473ml", "volume": "473 ml", "preco": 4.79, "foto": "https://upload.wikimedia.org/wikipedia/pt/2/23/Logo_Brahma.png", "promocao": false },
+    { "id": "473-skol", "nome": "Skol", "categoria": "473ml", "volume": "473 ml", "preco": 4.99, "foto": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Skol_logo.png", "promocao": false },
+    { "id": "473-bohemia", "nome": "Bohemia", "categoria": "473ml", "volume": "473 ml", "preco": 5.19, "foto": "https://upload.wikimedia.org/wikipedia/commons/0/07/Bohemia_Logo.png", "promocao": false },
+    { "id": "473-budweiser", "nome": "Budweiser", "categoria": "473ml", "volume": "473 ml", "preco": 5.19, "foto": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Budweiser_logo.svg", "promocao": false },
+    { "id": "473-brahma-duplo", "nome": "Brahma Duplo", "categoria": "473ml", "volume": "473 ml", "preco": 5.29, "foto": "https://upload.wikimedia.org/wikipedia/pt/2/23/Logo_Brahma.png", "promocao": false },
+    { "id": "473-original-multipack", "nome": "Original Multipack", "categoria": "473ml", "volume": "473 ml", "preco": 5.49, "foto": "https://upload.wikimedia.org/wikipedia/commons/3/30/Antarctica_Cerveja_Original_Pilsen.jpg", "promocao": true },
+    { "id": "473-spaten", "nome": "Spaten", "categoria": "473ml", "volume": "473 ml", "preco": 5.69, "foto": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Spaten_L%C3%B6wenbr%C3%A4u_Gruppe_Logo.svg", "promocao": false },
+    { "id": "473-original", "nome": "Original", "categoria": "473ml", "volume": "473 ml", "preco": 5.79, "foto": "https://upload.wikimedia.org/wikipedia/commons/3/30/Antarctica_Cerveja_Original_Pilsen.jpg", "promocao": false },
+    { "id": "473-stella", "nome": "Stella", "categoria": "473ml", "volume": "473 ml", "preco": 6.49, "foto": "https://upload.wikimedia.org/wikipedia/commons/1/10/Stella_Artois_new_logo.svg", "promocao": false },
+    { "id": "473-stella-pure-gold", "nome": "Stella Pure Gold", "categoria": "473ml", "volume": "473 ml", "preco": 6.79, "foto": "https://upload.wikimedia.org/wikipedia/commons/1/10/Stella_Artois_new_logo.svg", "promocao": false },
+    { "id": "473-corona", "nome": "Corona", "categoria": "473ml", "volume": "473 ml", "preco": 7.29, "foto": "https://commons.wikimedia.org/wiki/Special:FilePath/Corona_Extra_bottle.jpg", "promocao": false },
+
+    { "id": "long-neck-coronita", "nome": "Coronita", "categoria": "Long Neck", "volume": "210 ml", "preco": 5.59, "foto": "https://commons.wikimedia.org/wiki/Special:FilePath/Corona_Extra_bottle.jpg", "promocao": false },
+    { "id": "long-neck-budweiser", "nome": "Budweiser", "categoria": "Long Neck", "volume": "330 ml", "preco": 5.79, "foto": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Budweiser_logo.svg", "promocao": false },
+    { "id": "long-neck-budweiser-zero", "nome": "Budweiser Zero", "categoria": "Long Neck", "volume": "330 ml", "preco": 5.79, "foto": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Budweiser_logo.svg", "promocao": false },
+    { "id": "long-neck-spaten", "nome": "Spaten", "categoria": "Long Neck", "volume": "330 ml", "preco": 5.99, "foto": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Spaten_L%C3%B6wenbr%C3%A4u_Gruppe_Logo.svg", "promocao": false },
+    { "id": "long-neck-michelob", "nome": "Michelob", "categoria": "Long Neck", "volume": "330 ml", "preco": 6.69, "foto": "https://upload.wikimedia.org/wikipedia/commons/7/75/Michelob_Ultra_logo.svg", "promocao": false },
+    { "id": "long-neck-stella", "nome": "Stella", "categoria": "Long Neck", "volume": "330 ml", "preco": 6.89, "foto": "https://commons.wikimedia.org/wiki/Special:FilePath/Stella_Artois.JPG", "promocao": false },
+    { "id": "long-neck-stella-pure-gold", "nome": "Stella Pure Gold", "categoria": "Long Neck", "volume": "330 ml", "preco": 7.29, "foto": "https://upload.wikimedia.org/wikipedia/commons/1/10/Stella_Artois_new_logo.svg", "promocao": false },
+    { "id": "long-neck-corona", "nome": "Corona", "categoria": "Long Neck", "volume": "330 ml", "preco": 7.89, "foto": "https://commons.wikimedia.org/wiki/Special:FilePath/Corona_Extra_bottle.jpg", "promocao": false },
+    { "id": "long-neck-corona-cero", "nome": "Corona Cero", "categoria": "Long Neck", "volume": "330 ml", "preco": 7.89, "foto": "https://commons.wikimedia.org/wiki/Special:FilePath/Corona_Extra_bottle.jpg", "promocao": false },
+
+    { "id": "350-brahma-zero", "nome": "Brahma Zero", "categoria": "350ml", "volume": "350 ml", "preco": 4.39, "foto": "https://upload.wikimedia.org/wikipedia/pt/2/23/Logo_Brahma.png", "promocao": false },
+    { "id": "350-budweiser-zero", "nome": "Budweiser Zero", "categoria": "350ml", "volume": "350 ml", "preco": 4.39, "foto": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Budweiser_logo.svg", "promocao": false },
+    { "id": "350-spaten", "nome": "Spaten", "categoria": "350ml", "volume": "350 ml", "preco": 5.29, "foto": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Spaten_L%C3%B6wenbr%C3%A4u_Gruppe_Logo.svg", "promocao": false },
+
+    { "id": "litro-skol", "nome": "Skol", "categoria": "Litro", "volume": "1 L", "preco": 8.0, "foto": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Skol_logo.png", "promocao": false },
+    { "id": "litro-antarctica", "nome": "Antarctica", "categoria": "Litro", "volume": "1 L", "preco": 9.0, "foto": "https://upload.wikimedia.org/wikipedia/pt/4/4b/Logo_Antarctica.png", "promocao": false },
+    { "id": "litro-brahma", "nome": "Brahma", "categoria": "Litro", "volume": "1 L", "preco": 9.5, "foto": "https://upload.wikimedia.org/wikipedia/pt/2/23/Logo_Brahma.png", "promocao": false },
+    { "id": "litro-budweiser", "nome": "Budweiser", "categoria": "Litro", "volume": "1 L", "preco": 10.0, "foto": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Budweiser_logo.svg", "promocao": false },
+    { "id": "litro-original", "nome": "Original", "categoria": "Litro", "volume": "1 L", "preco": 11.0, "foto": "https://upload.wikimedia.org/wikipedia/commons/3/30/Antarctica_Cerveja_Original_Pilsen.jpg", "promocao": false }
+  ]
+}

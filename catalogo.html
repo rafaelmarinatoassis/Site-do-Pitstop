@@ -1,0 +1,93 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Catalogo completo VaptVupt com filtros, busca e carrinho." />
+  <title>VaptVupt Pitstop | Catalogo</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body data-page="catalogo">
+  <a class="skip-link" href="#conteudo">Pular para o conteudo</a>
+
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html" aria-label="VaptVupt Pitstop inicio">
+        <img class="brand-logo" src="assets/img/logo.png" alt="Logo VaptVupt" />
+        <span class="brand-text">
+          <strong>VaptVupt Pitstop</strong>
+          <span>Catalogo digital de bebidas</span>
+        </span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-label="Abrir menu" data-menu-toggle>☰</button>
+
+      <nav class="nav-links" data-nav aria-label="Navegacao principal">
+        <a href="index.html">Inicio</a>
+        <a href="catalogo.html" aria-current="page">Catalogo</a>
+<a href="carrinho.html">Carrinho</a>
+        <a href="checkout.html">Checkout</a>
+        <a href="contato.html">Contato</a>
+      </nav>
+
+      <a class="cart-pill" href="carrinho.html" aria-label="Ir para carrinho">
+        🛒 <b data-cart-count>0</b>
+      </a>
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <div class="container">
+      <section class="page-title">
+        <h1>Catalogo completo</h1>
+        <p>Filtre por categoria, pesquise por nome e ordene os produtos como preferir.</p>
+      </section>
+
+      <section class="section">
+        <div class="toolbar">
+          <input id="catalogSearch" class="input" type="search" placeholder="Buscar por nome, categoria ou volume" aria-label="Buscar produto" />
+          <select id="catalogSort" class="select" aria-label="Ordenar produtos">
+            <option value="relevancia">Ordenar: Relevancia</option>
+            <option value="nome-asc">Nome A-Z</option>
+            <option value="preco-asc">Menor preco</option>
+            <option value="preco-desc">Maior preco</option>
+          </select>
+        </div>
+
+        <div id="catalogFilters" class="filters" aria-label="Filtros por categoria"></div>
+
+        <div style="margin-top:12px;">
+          <p id="catalogEmpty" class="empty-state" style="display:none;">Nenhum produto encontrado com os filtros atuais.</p>
+          <div id="catalogProducts" class="product-grid"></div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <a id="stickyCatalogCart" class="sticky-cart" href="carrinho.html" aria-label="Ver carrinho">
+    <div>
+      <strong>Ver carrinho</strong>
+      <span id="stickyCatalogCount">0 itens</span>
+    </div>
+    <b id="stickyCatalogTotal">R$ 0,00</b>
+  </a>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-card">
+        <strong>VaptVupt Pitstop</strong>
+        <p>Continuar comprando ficou facil: seu carrinho permanece salvo entre as paginas.</p>
+      </div>
+    </div>
+  </footer>
+
+  <div id="uiToast" class="toast" aria-live="polite"></div>
+<script src="assets/js/cart.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
+
+
+
+
+

@@ -1,0 +1,93 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Checkout estatico VaptVupt para finalizar pedido via WhatsApp." />
+  <title>VaptVupt Pitstop | Checkout</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body data-page="checkout">
+  <a class="skip-link" href="#conteudo">Pular para o conteudo</a>
+
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html" aria-label="VaptVupt Pitstop inicio">
+        <img class="brand-logo" src="assets/img/logo.png" alt="Logo VaptVupt" />
+        <span class="brand-text">
+          <strong>VaptVupt Pitstop</strong>
+          <span>Catalogo digital de bebidas</span>
+        </span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-label="Abrir menu" data-menu-toggle>☰</button>
+
+      <nav class="nav-links" data-nav aria-label="Navegacao principal">
+        <a href="index.html">Inicio</a>
+        <a href="catalogo.html">Catalogo</a>
+<a href="carrinho.html">Carrinho</a>
+        <a href="checkout.html" aria-current="page">Checkout</a>
+        <a href="contato.html">Contato</a>
+      </nav>
+
+      <a class="cart-pill" href="carrinho.html" aria-label="Ir para carrinho">
+        🛒 <b data-cart-count>0</b>
+      </a>
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <div class="container">
+      <section class="page-title">
+        <h1>Checkout</h1>
+        <p>Informe nome e observacoes. O pedido vai pronto para o WhatsApp.</p>
+      </section>
+
+      <section class="section cart-layout">
+        <form id="checkoutForm" class="form-grid" novalidate>
+          <div class="field">
+            <label for="name">Nome</label>
+            <input id="name" name="name" class="input" type="text" autocomplete="name" required />
+          </div>
+
+          <div class="field full">
+            <label for="notes">Observacoes</label>
+            <textarea id="notes" name="notes" rows="4" placeholder="Ex.: deixar gelada, separar no jeito, etc."></textarea>
+          </div>
+
+          <p id="checkoutNotice" class="notice field full">Confira seus dados e toque em Finalizar no WhatsApp.</p>
+
+          <div class="field full">
+            <button class="btn btn-success" type="submit" style="width:100%;">Finalizar no WhatsApp</button>
+          </div>
+        </form>
+
+        <aside class="summary-card sticky">
+          <h3>Resumo do pedido</h3>
+          <div id="checkoutItems"></div>
+          <div class="summary-total">
+            <span>Total</span>
+            <span id="checkoutTotal">R$ 0,00</span>
+          </div>
+        </aside>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-card">
+        <strong>VaptVupt Pitstop</strong>
+        <p>Ao finalizar, o WhatsApp abre com todos os dados e itens organizados automaticamente.</p>
+      </div>
+    </div>
+  </footer>
+<script src="assets/js/cart.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
+
+
+
+
+

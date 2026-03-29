@@ -1,0 +1,100 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="VaptVupt Pitstop: catalogo digital de bebidas com pedido rapido via WhatsApp." />
+  <title>VaptVupt Pitstop | Inicio</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body data-page="home">
+  <a class="skip-link" href="#conteudo">Pular para o conteudo</a>
+
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html" aria-label="VaptVupt Pitstop inicio">
+        <img class="brand-logo" src="assets/img/logo.png" alt="Logo VaptVupt" />
+        <span class="brand-text">
+          <strong>VaptVupt Pitstop</strong>
+          <span>Catalogo digital de bebidas</span>
+        </span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-label="Abrir menu" data-menu-toggle>☰</button>
+
+      <nav class="nav-links" data-nav aria-label="Navegacao principal">
+        <a href="index.html" aria-current="page">Inicio</a>
+        <a href="catalogo.html">Catalogo</a>
+        <a href="carrinho.html">Carrinho</a>
+        <a href="checkout.html">Checkout</a>
+        <a href="contato.html">Contato</a>
+      </nav>
+
+      <a class="cart-pill" href="carrinho.html" aria-label="Ir para carrinho">
+        🛒 <b data-cart-count>0</b>
+      </a>
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <div class="container">
+      <section class="hero">
+        <div class="hero-grid">
+          <div>
+            <span class="eyebrow">Pitstop premium de bebidas</span>
+            <h1>Escolha rapido. Peça facil. Gelada no ponto.</h1>
+            <p>Um catalogo direto ao ponto para quem veio do Instagram e quer finalizar sem enrolacao.</p>
+            <div class="hero-actions">
+              <a class="btn btn-dark" href="catalogo.html">Explorar catalogo</a>
+              <a class="btn btn-light" href="carrinho.html">Ver carrinho</a>
+            </div>
+          </div>
+          <div class="stat-card">
+            <h3>Compra em poucos toques</h3>
+            <p>Adicione, revise e finalize no WhatsApp.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" aria-labelledby="destaques-title">
+        <div class="section-head">
+          <div>
+            <h2 id="destaques-title">Destaques de hoje</h2>
+          </div>
+          <a class="btn btn-light" href="catalogo.html">Ver todos</a>
+        </div>
+        <div id="homeFeaturedProducts" class="product-grid"></div>
+      </section>
+    </div>
+  </main>
+
+  <a id="stickyHomeCart" class="sticky-cart" href="carrinho.html" aria-label="Ver carrinho">
+    <div>
+      <strong>Ver carrinho</strong>
+      <span id="stickyHomeCount">0 itens</span>
+    </div>
+    <b id="stickyHomeTotal">R$ 0,00</b>
+  </a>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-card">
+        <strong>VaptVupt Pitstop</strong>
+        <p>Catalogo moderno e objetivo para conversao rapida.</p>
+        <div class="footer-links">
+          <a href="catalogo.html">Catalogo</a>
+          <a href="carrinho.html">Carrinho</a>
+          <a href="checkout.html">Checkout</a>
+          <a href="contato.html">Contato</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <div id="uiToast" class="toast" aria-live="polite"></div>
+  <script src="assets/js/cart.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
+
+
