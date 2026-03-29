@@ -192,6 +192,29 @@ main {
   gap: 14px;
 }
 
+.hero-content {
+  display: grid;
+  align-content: center;
+}
+
+.hero-cover {
+  position: relative;
+  overflow: hidden;
+  background-image:
+    linear-gradient(96deg, rgba(255, 248, 224, 0.95) 0%, rgba(255, 248, 224, 0.88) 40%, rgba(255, 248, 224, 0.52) 68%, rgba(255, 248, 224, 0.14) 100%),
+    url("https://imgs.search.brave.com/hteHoRQb8qhyZvEKuPsTUIbvN9WxGTKUzd83zuGD9rA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9wNC53/YWxscGFwZXJiZXR0/ZXIuY29tL3dhbGxw/YXBlci84MjMvOTE4/LzQ2NC9oZWluZWtl/bi1iZWVyLWZyZWUt/aW1hZ2VzLXdhbGxw/YXBlci1wcmV2aWV3/LmpwZw");
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-cover .hero-grid {
+  grid-template-columns: 1fr;
+}
+
+.hero-cover .hero-content {
+  max-width: 620px;
+}
+
 .eyebrow {
   display: inline-flex;
   align-items: center;
@@ -223,6 +246,22 @@ h3 {
   color: #4f4017;
   line-height: 1.6;
   max-width: 58ch;
+}
+
+.hero-lead {
+  font-size: 1.05rem;
+  max-width: 40ch;
+}
+
+.hero-note {
+  margin-top: 14px;
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.55);
+  border: 1px solid rgba(16, 16, 16, 0.12);
+  border-radius: 12px;
+  padding: 10px 12px;
+  font-size: 0.9rem;
+  color: #53441a;
 }
 
 .hero-actions {
@@ -265,6 +304,16 @@ h3 {
 
 .btn-light:hover {
   background: rgba(16, 16, 16, 0.06);
+}
+
+.btn-white {
+  background: #fff;
+  color: #111;
+  border-color: rgba(16, 16, 16, 0.16);
+}
+
+.btn-white:hover {
+  background: #f5f5f5;
 }
 
 .btn-success {
@@ -883,8 +932,12 @@ textarea:focus {
   }
 
   .hero-grid {
-    grid-template-columns: 1.2fr 0.8fr;
+    grid-template-columns: 1.08fr 0.92fr;
     align-items: center;
+  }
+
+  .hero-cover .hero-grid {
+    grid-template-columns: 1fr;
   }
 
   .grid-2 {
