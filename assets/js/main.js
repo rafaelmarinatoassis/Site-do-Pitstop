@@ -79,9 +79,6 @@
 
   function getProductBadges(item) {
     const badges = [];
-    if (item.promo) {
-      badges.push({ label: "Promocao", className: "promo", icon: "PROMO" });
-    }
     if (item.id === "473-corona" || item.id === "long-neck-corona" || item.id === "473-stella") {
       badges.push({ label: "Mais vendido", className: "hot", icon: "HOT" });
     }
