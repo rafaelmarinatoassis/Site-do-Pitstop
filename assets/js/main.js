@@ -78,11 +78,7 @@
   }
 
   function getProductBadges(item) {
-    const badges = [];
-    if (item.id === "473-corona" || item.id === "long-neck-corona" || item.id === "473-stella") {
-      badges.push({ label: "Mais vendido", className: "hot", icon: "HOT" });
-    }
-    return badges;
+    return [];
   }
 
   function showToast(message) {
@@ -124,29 +120,25 @@
       `
       : `<div class="product-media no-photo"></div>`;
 
-    const controls = qty > 0
-      ? `
-        <div class="qty" data-id="${item.id}">
-          <button type="button" data-action="minus" aria-label="Diminuir ${item.name}">-</button>
-          <span>${qty}</span>
-          <button type="button" data-action="plus" aria-label="Aumentar ${item.name}">+</button>
-        </div>
-      `
-      : `<button class="add-btn" type="button" data-action="add" data-id="${item.id}">Adicionar</button>`;
+    const controls = `
+      <button class="add-btn add-btn-round" type="button" data-action="add" data-id="${item.id}" aria-label="Adicionar ${item.name}">
+        <span class="plus-icon" aria-hidden="true">+</span>
+      </button>
+      ${qty > 0 ? `<span class="qty-pill">${qty} no carrinho</span>` : ""}
+    `;
 
     return `
-      <article class="product-card">
+      <article class="product-card product-row">
         ${badgeHtml}
         ${mediaHtml}
-        <div class="product-top">
+        <div class="product-body">
           <div class="product-meta">
             <h3>${item.name}</h3>
             <p>${item.category} • ${item.volume}</p>
           </div>
-          <div class="price">${window.VaptCart.formatMoney(item.price)}</div>
         </div>
-        <div class="product-actions">
-          <a class="btn btn-light" href="checkout.html">Finalizar</a>
+        <div class="product-side">
+          <div class="price">${window.VaptCart.formatMoney(item.price)}</div>
           ${controls}
         </div>
       </article>
